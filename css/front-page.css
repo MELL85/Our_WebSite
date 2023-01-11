@@ -1,0 +1,22 @@
+.main__front-page {
+        background-image: url(../img/main__front-page-bg-foto.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-size: 1200px;
+}
+
+.main__title {
+    font-family: 'Playfair Display', serif;
+    font-size: 85px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    padding: 100px;
+}
+
+.main__title-down {
+    font-size: 35px;
+    color:#fff;
+    text-align: center;
+    padding: 100px;
+}

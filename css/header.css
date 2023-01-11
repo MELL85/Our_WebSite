@@ -1,0 +1,17 @@
+.header__title {
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    color: #fff;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.header__link {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
