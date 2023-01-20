@@ -1,0 +1,20 @@
+.my-style__head-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 44px;
+}
+
+.my-style__text {
+    font-size: 16px;
+}
+
+.my-style__up-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(222, 189, 155);
+    padding-inline: 6em;
+}
+
+.my-style__down-container {
+    display: flex;
+    flex-direction: column;
+}

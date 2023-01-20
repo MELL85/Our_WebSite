@@ -1,17 +1,43 @@
 .header__title {
     font-family: 'Playfair Display', serif;
-    font-size: 35px;
+    font-size: 32px;
+    color: #fff;
+}
+
+.contacts-item-line {
+    color: rgb(222, 189, 155);
+}
+
+.header__head-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: #25201e;
+}
+
+.header__head-nav-icons>a {
+    text-decoration: none;
     color: #fff;
 }
 
 .header__nav {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    padding: 2em;
+    background-color: #655e5a;
 }
 
 .header__link {
-    font-size: 25px;
+    font-size: 16px;
     text-align: center;
-    color: white;
+    color: #fff;
+}
+
+.header__link-btn {
+    background-color: rgb(222, 189, 155);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    height: 35px;
+    padding: 10px;
 }
