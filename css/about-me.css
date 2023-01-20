@@ -1,7 +1,9 @@
-.main__front-page {
+.main__about-me {
     background-color: #fff;
     display: flex;
     padding-inline: 6em;
+    /* max-width: 1200px; */
+    margin: 0 auto;
 }
 
 .main__title-block {
@@ -26,13 +28,14 @@
     font-size: 44px;
     font-weight: 700;
     color: black;
-    /* text-align: center; */
+    padding-bottom: 15px;
 }
 
 .main__title-down {
     font-size: 18px;
     color: black;
     font-weight: 400;
+    padding-bottom: 1em;
 }
 
 .main__title-text {
@@ -41,5 +44,5 @@
 }
 
 .main__title-text>p {
-    padding: 15px 30px;
+    padding-bottom: 15px;
 }
