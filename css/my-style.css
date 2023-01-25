@@ -9,24 +9,22 @@
     font-family: 'Playfair Display', serif;
     font-size: 44px;
     padding-bottom: 20px;
-    padding-inline: 1em;
 }
 
 .my-style__text {
     font-size: 16px;
-    padding-inline: 3em;
 }
 
 .my-style__up-container{
     display: flex;
     flex-direction: column;
     background-color: rgb(222, 189, 155);
-    padding: 85px 0 100px;
+    padding: 100px;
 }
 
 .my-style__down-container {
     display: flex;
     flex-direction: column;
     background-color: rgb(240, 229, 218);
-    padding: 85px 0 100px;
+    padding: 100px;
 }
