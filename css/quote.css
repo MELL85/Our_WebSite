@@ -1,0 +1,22 @@
+.main__quote {
+    background-image: url(../img/quote_bg.webp);
+    background-attachment: fixed;
+    opacity: 0.7;
+    /* background-color: rgb(64, 27, 27); */
+    color: #fff;
+    text-align: center;
+    padding: 100px 0 100px;
+}
+
+.main__quote-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main__quote-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 29px;
+    font-weight: 400;
+    font-style: italic;
+    padding: 30px 0 50px;
+}

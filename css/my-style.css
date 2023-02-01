@@ -1,8 +1,12 @@
 .main__my-style {
     display: flex;
     flex-direction: column;
-    /* max-width: 1200px; */
     margin: 0 auto;
+}
+
+.main__my-style-container-text {
+    max-width: 1200px;
+    margin: auto;
 }
 
 .my-style__head-text {
@@ -13,9 +17,10 @@
 
 .my-style__text {
     font-size: 16px;
+    line-height: 28px;
 }
 
-.my-style__up-container{
+.my-style__up-container {
     display: flex;
     flex-direction: column;
     background-color: rgb(222, 189, 155);

@@ -1,0 +1,49 @@
+.main__services-head-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main__services-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+    padding: 30px 0 50px;
+}
+
+.main__services-container-blocks {
+    display: flex;
+    justify-content: space-between;
+    /* padding-inline: 20px; */
+}
+
+.main__services-container {
+    display: flex;
+    max-width: 600px;
+}
+
+.main__services-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__services-block-one {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.main__services-block-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.main__services-block-text {
+    text-align: center;
+    background-color: rgb(240, 229, 218);
+    width: 50%;
+    vertical-align: middle;
+    font-weight: 500;
+    font-size: 22px;
+}

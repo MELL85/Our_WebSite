@@ -1,0 +1,43 @@
+.main__testimonials {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main__testimonials-container {
+    display: grid;
+    grid-column: auto;
+    padding-bottom: 4em;
+}
+
+.main__testimonials-container-blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__testimonials-block {
+    background-color:  rgb(240, 229, 218);
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+    border: 1px solid;
+    border-radius: 7px;
+    border-color: transparent;
+}
+
+.main__testimonials-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+    padding: 30px 0 50px;
+}
+
+.main__testimonials-block-main-text {
+    padding: 25px 0 25px;
+    max-width: 300px;
+}
+
+.main__testimonials-block-footer-text {
+    padding: 25px 0 30px;
+}

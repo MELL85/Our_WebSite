@@ -1,0 +1,39 @@
+.main__how-it-works {
+    background-image: url(../img/how-it-works-bg.webp);
+    background-color: rgb(240, 229, 218);
+}
+
+.main__how-it-works-head-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main__how-it-works-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+    padding: 30px 0 50px;
+}
+
+.main__how-it-works-container {
+    display: flex;
+    padding: 15px 0 70px;
+    justify-content: center;
+}
+
+.main__how-it-works-block {
+    padding: 20px;
+    max-width: 300px;
+}
+
+.main__how-it-works-block-title {
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.main__how-it-works-block-text {
+    line-height: 28px;
+}

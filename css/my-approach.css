@@ -1,9 +1,11 @@
-.main__my-approach {
-    padding: 75px;
+.main__my-approach-head-container {
+    max-width: 1200px;
     text-align: center;
+    padding: 75px;
+    margin: auto;
 }
 
-.main__my-approach-blocks>img {
+.main__my-approach-blocks img {
     width: 100px;
     height: 100px;
     padding-bottom: 15px;
@@ -13,11 +15,14 @@
     padding-right: 15px;
 }
 
+.main__my-approach-blocks p {
+    line-height: 28px;
+}
+
 .main__my-approach-head-text {
     font-family: 'Playfair Display', serif;
     font-size: 44px;
-    font-weight: 700px;
-    /* text-align: center; */
+    font-weight: 700;
     padding-bottom: 20px;
 }
 
@@ -28,21 +33,18 @@
 
 .main__my-approach-container-up-block {
     display: flex;
-    flex-direction: row;
-    padding-inline: 3em;
+    justify-content: space-between;
     padding-bottom: 30px;
 }
 
 .main__my-approach-container-down-block {
     display: flex;
-    flex-direction: row;
-    padding-inline: 3em;
+    justify-content: space-between;
     padding-bottom: 20px;
 }
 
 .main__my-approach-blocks-head-text {
-    /* text-align: center; */
     padding-bottom: 15px;
-    font-weight: 500px;
+    font-weight: 400;
     font-size: 22px;
 }

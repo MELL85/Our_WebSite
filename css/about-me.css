@@ -1,9 +1,11 @@
 .main__about-me {
-    background-color: #fff;
+    background-image: url(../img/bg.webp);
+}
+
+.main__about-me-container {
+    max-width: 1200px;
     display: flex;
-    padding-inline: 6em;
-    /* max-width: 1200px; */
-    margin: 0 auto;
+    margin: auto;
 }
 
 .main__title-block {
@@ -18,7 +20,8 @@
     object-fit: cover;
     width: 100%;
     height: auto;
-    padding: 20px;
+    /* padding: 20px; */
+    padding-right: 1em;
     margin-block: 6em;
 }
 
@@ -40,8 +43,9 @@
 .main__title-text {
     color: black;
     font-size: 16px;
+    line-height: 28px;
 }
 
-.main__title-text>p {
+.main__title-text p {
     padding-bottom: 15px;
 }
