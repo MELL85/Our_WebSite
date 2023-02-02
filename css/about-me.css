@@ -20,30 +20,22 @@
     object-fit: cover;
     width: 100%;
     height: auto;
-    /* padding: 20px; */
     padding-right: 1em;
     margin-block: 6em;
 }
 
 .main__title {
     font-family: 'Playfair Display', serif;
-    font-size: 44px;
+    font-size: 41px;
     font-weight: 700;
-    color: black;
-    padding-bottom: 15px;
+    line-height: 42px;
+    padding: 1em 0 1em;
 }
 
 .main__title-down {
     font-size: 18px;
-    color: black;
     font-weight: 400;
-    padding-bottom: 1em;
-}
-
-.main__title-text {
-    color: black;
-    font-size: 16px;
-    line-height: 28px;
+    padding-bottom: 0.5em;
 }
 
 .main__title-text p {

@@ -10,10 +10,9 @@
 .main__certificates-title {
     font-family: 'Playfair Display', serif;
     font-size: 32px;
-    color: #000;
     font-weight: 700px;
     text-align: center;
-    padding-top: 30px;
+    padding: 1em 0 1em;
 }
 
 .main__certificates-img-container {

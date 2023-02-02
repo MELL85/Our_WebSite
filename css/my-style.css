@@ -12,15 +12,11 @@
 .my-style__head-text {
     font-family: 'Playfair Display', serif;
     font-size: 44px;
-    padding-bottom: 20px;
+    padding-bottom: 1em;
 }
 
-.my-style__text {
-    font-size: 16px;
-    line-height: 28px;
-}
-
-.my-style__up-container {
+.my-style__up-container,
+.my-style__down-container {
     display: flex;
     flex-direction: column;
     background-color: rgb(222, 189, 155);
@@ -28,8 +24,5 @@
 }
 
 .my-style__down-container {
-    display: flex;
-    flex-direction: column;
     background-color: rgb(240, 229, 218);
-    padding: 100px;
 }

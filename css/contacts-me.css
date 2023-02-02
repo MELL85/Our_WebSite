@@ -1,8 +1,8 @@
 .main__contacts-me {
-    background-image: url(../img/Contacts_me_bg_foto.webp);
+    background-image: url(../img/Contacts_me_bg_foto_new.webp);
     background-size: cover;
     background-attachment: fixed;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .main__contacts-me-container {
@@ -16,11 +16,9 @@
 .main__contacts-me-container-text {
     display: flex;
     flex-direction: column;
-    /* padding: 50px; */
-    /* margin: auto; */
     width: 500px;
     height: 600px;
-    color: #050505dc;
+    /* color: #050505dc; */
 }
 
 .main__contacts-me-container-form {
@@ -38,7 +36,7 @@
 .main__contacts-me-head-title {
 font-family: 'Playfair Display', serif;
 font-size: 41px;
-color: #000;
+color: #fff;
 line-height: 41px;
 font-weight: 700;
 text-align: left;
@@ -49,6 +47,7 @@ padding: 30px 0 30px;
     padding-top: 10px;
     padding-bottom: 15px;
     font-size: 20px;
+    color: #fff;
 }
 
 .main__contacts-me-head-text {
@@ -67,7 +66,6 @@ padding: 30px 0 30px;
     font-weight: 500;
     line-height: 32px;
     padding-right: 54px;
-
 }
 
 .main__contacts-me-hours-block {
@@ -98,17 +96,14 @@ padding: 30px 0 30px;
     padding-right: 50px;
 }
 
-.main__contacts-me-contacts-text {
+.main__contacts-me-contacts-text,
+.text-string {
     list-style: none;
+    color: #FFFFFF;
 }
 
 .contacts-item {
     color: #fff;
-}
-
-.text-string {
-    list-style: none;
-    line-height: 28px;
 }
 
 .main__contacts-me-contacts-map {
@@ -157,7 +152,6 @@ padding: 30px 0 30px;
     color: #FFFFFF;
     width: 100%;
     padding: 14px 20px;
-    /* margin-top: 20px; */
     border: none;
     outline: none;
     cursor: pointer;
@@ -167,20 +161,11 @@ padding: 30px 0 30px;
 
 .main__contacts-me-buttom-text {
     margin-top: 20px;
-}
-
-.main__contacts-me-buttom-text {
     padding-bottom: 20px;
 }
 
-.main__contacts-me-buttom-tel {
-    padding-bottom: 20px;
-}
-
-.main__contacts-me-buttom-email {
-    padding-bottom: 20px;
-}
-
+.main__contacts-me-buttom-tel,
+.main__contacts-me-buttom-email,
 .main__contacts-me-buttom-message {
     padding-bottom: 20px;
 }

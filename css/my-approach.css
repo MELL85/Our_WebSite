@@ -15,15 +15,11 @@
     padding-right: 15px;
 }
 
-.main__my-approach-blocks p {
-    line-height: 28px;
-}
-
 .main__my-approach-head-text {
     font-family: 'Playfair Display', serif;
     font-size: 44px;
     font-weight: 700;
-    padding-bottom: 20px;
+    padding-bottom: 1em;
 }
 
 .main__my-approach-container {
