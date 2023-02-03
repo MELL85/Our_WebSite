@@ -1,5 +1,5 @@
 .main__about-me {
-    background-image: url(../img/bg.webp);
+    background-image: linear-gradient(to top, rgba(240, 229, 218, .6), rgba(240, 229, 218, .6)), url(../img/bg.webp);
 }
 
 .main__about-me-container {

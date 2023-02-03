@@ -17,14 +17,14 @@
 }
 
 .main__services-container {
-    display: flex;
+    /* display: flex; */
     max-width: 600px;
 }
 
-.main__services-block {
+/* .main__services-block {
     display: flex;
     flex-direction: column;
-}
+} */
 
 .main__services-block-one {
     display: flex;

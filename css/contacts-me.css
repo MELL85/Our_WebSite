@@ -1,8 +1,7 @@
 .main__contacts-me {
-    background-image: url(../img/Contacts_me_bg_foto_new.webp);
+    background-image: linear-gradient(to top, rgba(58, 52, 52, 0.7), rgba(58, 52, 52, .7)), url(../img/Contacts_me_bg_foto_new.webp);
     background-size: cover;
     background-attachment: fixed;
-    opacity: 0.7;
 }
 
 .main__contacts-me-container {

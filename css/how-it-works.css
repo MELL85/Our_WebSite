@@ -1,6 +1,5 @@
 .main__how-it-works {
-    background-image: url(../img/how-it-works-bg.webp);
-    background-color: rgb(240, 229, 218);
+    background-image: linear-gradient(to top, rgba(240, 229, 218, .6), rgba(240, 229, 218, .6)), url(../img/how-it-works-bg.webp);
 }
 
 .main__how-it-works-head-container {
