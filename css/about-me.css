@@ -18,7 +18,7 @@
 
 .main__title-foto {
     object-fit: cover;
-    width: 100%;
+    /* width: 300px; */
     height: auto;
     padding-right: 1em;
     margin-block: 6em;
