@@ -1,42 +1,75 @@
 .main__testimonials {
-    max-width: 1200px;
-    margin: auto;
+    padding: 85px 0 90px;
 }
 
-.main__testimonials-container {
-    display: grid;
-    grid-column: auto;
-    padding-bottom: 4em;
+.main__testimonials-head-container {
+    padding: 0 24px;
 }
 
-.main__testimonials-container-blocks {
-    display: flex;
-    justify-content: space-between;
+.main__testimonials-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    line-height: 34px;
+    text-align: center;
 }
 
 .main__testimonials-block {
-    background-color:  rgb(240, 229, 218);
-    text-align: center;
-    padding: 30px;
-    margin: 30px;
+    background-color: rgb(240, 229, 218);
+    padding: 43px 29px;
+    margin: 50px 0 0;
     border: 1px solid;
     border-radius: 7px;
     border-color: transparent;
 }
 
-.main__testimonials-title {
-    font-family: 'Playfair Display', serif;
-    font-size: 32px;
-    font-weight: 700;
-    text-align: center;
-    padding: 30px 0 50px;
-}
-
 .main__testimonials-block-main-text {
-    padding: 25px 0 25px;
-    max-width: 300px;
+    letter-spacing: 0.5px;
+    text-align: center;
 }
 
 .main__testimonials-block-footer-text {
-    padding: 25px 0 30px;
+    margin: 20px 0 0;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 32px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .main__testimonials {
+        padding: 85px 0 95px;
+    }
+
+    .main__testimonials-head-container {
+        padding: 0 32px;
+    }
+
+    .main__testimonials-title {
+        padding: 0 15px;
+    }
+
+    .main__testimonials-title {
+        font-size: 1.7rem;
+        letter-spacing: 1,7px;
+        line-height: 41px;
+    }
+}
+
+@media (min-width: 980px) {
+    .main__testimonials {
+        padding: 85px 0 100px;
+    }
+
+    .main__testimonials-head-container {
+        padding: 0 40px;
+    }
+
+    .main__testimonials-title {
+        font-size: 2rem;
+        letter-spacing: 2px;
+        line-height: 48px;
+    }
 }

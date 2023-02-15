@@ -1,13 +1,12 @@
 @import url(common.css);
 @import url(header.css);
-@import url(footer.css);
 @import url(about-me.css);
 @import url(my-style.css);
-@import url(contacts-me.css);
 @import url(my-approach.css);
-@import url(certificates.css);
 @import url(services.css);
-@import url(testimonials.css);
 @import url(how-it-works.css);
+@import url(testimonials.css);
 @import url(faq.css);
 @import url(quote.css);
+@import url(contacts-me.css);
+@import url(footer.css);

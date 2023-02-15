@@ -1,21 +1,111 @@
 .main__quote {
-    background-image: linear-gradient(to top, rgba(58, 52, 52, 0.7), rgba(58, 52, 52, .7)), url(../img/quote_bg.webp);
+    background-image: linear-gradient(to top, rgba(74, 69, 67, .7), rgba(74, 69, 67, .7)), url(../img/quote_bg.webp);
     background-attachment: fixed;
-    background-size: cover;
+    background-size:cover;
+    /* color: #fff;
+    text-align: center;
+    padding: 90px 0 90px; */
+}
+
+.main__quote-head-container {
     color: #fff;
     text-align: center;
-    padding: 100px 0 100px;
+    padding: 90px 0 90px;
 }
 
 .main__quote-container {
-    max-width: 1200px;
-    margin: auto;
+    /* max-width: 1200px; */
+    /* margin: auto; */
+    padding: 0 24px;
+}
+
+.main__quote-text-block {
+    border-top: solid 1px;
+    /* border-bottom: solid 1px; */
+    max-width: 630px;
 }
 
 .main__quote-text {
     font-family: 'Playfair Display', serif;
-    font-size: 29px;
+    font-size: 24px;
     font-weight: 400;
     font-style: italic;
-    padding: 30px 0 50px;
+    letter-spacing: 0.7px;
+    line-height: 24px;
+    margin: 25px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.main__quote-line-bottom {
+    margin: 30px 0 0;
+}
+
+.main__quote-line-bottom::before {
+    width: 42%;
+    left: 0;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+}
+
+.main__quote-line-bottom::after {
+    width: 42%;
+    right: 0;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+}
+
+.main__quote-img {
+    width: 14px;
+    height: 14px;
+   text-align: center;
+}
+
+.main__quote-author {
+    margin: 30px 0 0;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+@media (min-width: 768px) {
+    .main__quote-head-container {
+        padding: 95px 0 90px;
+    }
+
+    .main__quote-container {
+        padding: 0 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main__quote-text {
+        font-size: 29px;
+        letter-spacing: 0.8px;
+        line-height: 29px;
+    }
+}
+
+@media (min-width: 980px) {
+    .main__quote-head-container {
+        padding: 100px 0 90px;
+    }
+
+    .main__quote-container {
+        padding: 0 40px;
+    }
+
+    .main__quote-text {
+        font-size: 34px;
+        letter-spacing: 1px;
+        line-height: 34px;
+    }
+
+    .main__quote-author {
+        margin: 35px 0 0;
+    }
 }

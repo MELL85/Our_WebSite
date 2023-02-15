@@ -1,28 +1,35 @@
-.main__my-style {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-}
-
-.main__my-style-container-text {
-    max-width: 1200px;
-    margin: auto;
-}
-
 .my-style__head-text {
     font-family: 'Playfair Display', serif;
-    font-size: 44px;
-    padding-bottom: 1em;
+    font-size: 1.5rem;
+    line-height: 38px;
+    letter-spacing: 1px;
+    padding: 0 0 1.5em;
+    text-align: center;
+}
+
+.my-style__text {
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+
+.main__my-style-up-container {
+    background-color: var(--background-button);
+}
+
+.main__my-style-down-container {
+    background-color: var(--background-color-light);
 }
 
 .my-style__up-container,
 .my-style__down-container {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(222, 189, 155);
-    padding: 100px;
+    padding: 85px 24px 90px;
 }
 
-.my-style__down-container {
-    background-color: rgb(240, 229, 218);
+@media (min-width: 768px) {
+
+    .my-style__up-container,
+    .my-style__down-container {
+        padding: 85px 32px 90px;
+    }
 }

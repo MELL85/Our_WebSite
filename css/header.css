@@ -1,53 +1,203 @@
-.header__head-nav-container {
-    background-color: #25201e;
+header {
+    background-image: linear-gradient(to top, rgba(62, 57, 54, 0.4), rgba(62, 57, 54, .4)), url(../img/header_bg.jpg);
+    background-size: cover;
+    background-position: 25% 50%;
 }
 
-.header__head-nav {
-    max-width: 1200px;
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
-    margin: auto;
+.header__nav-burger-menu {
+    display: none;
 }
 
-.contacts-item-line {
-    color: rgb(222, 189, 155);
-}
-
-.header__head-nav-icons a {
-    text-decoration: none;
-}
-
-.header__nav-container {
-    background-color: #655e5a;
-}
-
-.header__nav {
-    max-width: 1200px;
-    display: flex;
-    justify-content: space-between;
-    padding: 2em;
-    margin: auto;
-}
-
-.header__title {
+.header__head-title {
     font-family: 'Playfair Display', serif;
-    font-size: 32px;
+    font-size: 1.1rem;
+    line-height: 38px;
     color: #fff;
+    margin-bottom: 30px;
+    padding: 0 24px;
+    letter-spacing: 1px;
 }
 
 .header__link {
-    font-size: 16px;
-    text-align: center;
     color: #fff;
 }
 
+.contacts-item-line {
+    color: var(--background-button);
+}
+
+.header__head-nav-icons-img {
+    width: 28px;
+    height: 28px;
+}
+
+.header__link-btn-container a:focus {
+    background-color: #8ebcd2;
+}
+
 .header__link-btn {
-    background-color: rgb(222, 189, 155);
-    border-radius: 5px;
-    border: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 0.95rem;
+    line-height: 15px;
+    background-color: var(--background-button);
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: #debd9a;
     cursor: pointer;
-    height: 35px;
-    padding: 10px;
-    margin-left: 1em;
+    height: 47px;
+    width: 151px;
+    display: block;
+    text-align: center;
+    padding-top: 13px;
+    text-decoration: none;
+    color: #322c29;
+}
+
+.header__nav-menu-wrapper {
+    margin-bottom: 30px;
+}
+
+.header__menu-elements {
+    list-style: none;
+}
+
+.header__head-nav-contacts {
+    margin-bottom: 30px;
+}
+
+.header__head-nav-icons {
+    margin-bottom: 30px;
+}
+
+.header__title-container {
+    padding: 100px 24px;
+    text-align: center;
+}
+
+.header__title {
+    padding: 0 15px;
+}
+
+.header__title-up {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.6rem;
+    line-height: 58px;
+    color: #fff;
+    letter-spacing: 0.9px;
+    text-align: center;
+}
+
+.header__title-down {
+    margin: 35px 0 0;
+    font-size: 20px;
+    line-height: 32px;
+    color: #fff;
+    letter-spacing: 1.12px;
+}
+
+.header__link-btn-down-container {
+    margin: 50px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header__link-btn-down-container a:focus {
+    background-color: #8ebcd2;
+}
+
+.header__link-btn-down {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 0.95rem;
+    line-height: 16.5px;
+    background-color: var(--background-button);
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: #debd9a;
+    cursor: pointer;
+    height: 47px;
+    width: 161px;
+    display: block;
+    text-align: center;
+    padding-top: 13px;
+    text-decoration: none;
+    color: #322c29;
+}
+
+@media (min-width: 768px) {
+    .header__head-container {
+        padding: 30px 32px;
+        display: flex;
+    }
+
+    .header__head-title {
+        font-size: 1.35rem;
+        font-weight: 700;
+        line-height: 46px;
+        letter-spacing: 1.3px;
+    }
+
+    .header__title-container {
+        padding: 140px 32px;
+    }
+
+    .header__title {
+        padding: 0 15px;
+    }
+
+    .header__title-up {
+        font-size: 4.4rem;
+        line-height: 70px;
+        letter-spacing: 1.7px;
+        text-align: center;
+    }
+
+    .header__title-down {
+        display: block;
+        margin: 5px 0 0;
+        padding: 30px 0 0;
+        font-size: 21px;
+        line-height: 34px;
+        letter-spacing: 1.2px;
+        justify-content: center;
+    }
+
+    .header__link-btn-down {
+        margin: 15px;
+        padding: 17px 35px;
+        font-size: 1.05rem;
+        height: 56px;
+        width: 163px;
+        text-align: center;
+        display: flex;
+    }
+}
+
+@media (min-width: 980px) {
+    .header__head-container {
+        padding: 0 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__nav-burger-menu {
+        display: flex;
+    }
+
+    .header__title-container {
+        padding: 180px 40px;
+    }
+
+    .header__title-up {
+        font-size: 5rem;
+        line-height: 82px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    .header__title-down {
+        margin: 15px 0 0;
+        font-size: 22px;
+        line-height: 36px;
+        letter-spacing: 1.3px;
+    }
 }

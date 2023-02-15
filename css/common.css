@@ -1,14 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
 
 /* уточнить как правильно скидывать стили по умолчанию */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
     line-height: 28px;
+    font-weight: 400;
+    color: #322c29;
+    /* --sign-start-color: #ee2e14; Колір червоної лінії на початку розділу */
+    --background-brown: #322c29; /* Колір темно-коричневого фону */
+    --background-button: #debd9a; /* Колір всіх кнопок */
+    --background-color-light: #f7f2ea; /* Колір світлого фону */
+    --text-contact-color: #8fbcd2; /* Колір шрифту в контактах */
+    --background-color-numbers-block: #8dbcd2; /* Колір фону номерів в how it works */
+    scroll-behavior: smooth;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
 }
