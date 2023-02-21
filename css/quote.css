@@ -2,9 +2,6 @@
     background-image: linear-gradient(to top, rgba(74, 69, 67, .7), rgba(74, 69, 67, .7)), url(../img/quote_bg.webp);
     background-attachment: fixed;
     background-size:cover;
-    /* color: #fff;
-    text-align: center;
-    padding: 90px 0 90px; */
 }
 
 .main__quote-head-container {
@@ -14,8 +11,6 @@
 }
 
 .main__quote-container {
-    /* max-width: 1200px; */
-    /* margin: auto; */
     padding: 0 24px;
 }
 

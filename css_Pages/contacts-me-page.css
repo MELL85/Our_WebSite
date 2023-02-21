@@ -1,0 +1,268 @@
+.main__contacts-me {
+    background-image: linear-gradient(to top, rgba(62, 57, 54, 0.7), rgba(62, 57, 54, .7)), url(../img/Contacts_me_bg_foto_new.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 90px 0;
+}
+
+.main__contacts-me-container {
+    padding: 0 24px;
+    margin-top: 65px;
+}
+
+.main__contacts-me-head-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    color: #fff;
+    line-height: 34px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-align: left;
+}
+
+.main__contacts-me-head-text-block {
+    margin: 25px 0 0;
+    font-size: 18px;
+    color: #ede0d0;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.main__contacts-me-address-head-block {
+    margin: 25px 0 0;
+}
+
+.main__contacts-me-address-block,
+.main__contacts-me-hours-block {
+    margin: 0 0 16px;
+}
+
+.main__contacts-me-address,
+.main__contacts-me-hours,
+.main__contacts-me-contacts {
+    color: var(--text-contact-color);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin: 0 0 5px;
+}
+
+.text-string,
+.contacts-item,
+.main__contacts-me-contacts-text {
+    list-style: none;
+    color: #FFFFFF;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.main__contacts-me-contacts-map-block {
+    margin: 30px 0 0;
+}
+
+.main__contacts-me-contacts-map {
+    filter: grayscale(100%);
+    height: 244px;
+    width: 100%;
+}
+
+.main__contacts-me-container-head-form {
+    margin: 50px 0 0;
+}
+
+.main__contacts-me-container-form {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 39px 55px;
+    border: 1px solid;
+    border-radius: 7px;
+    border: transparent;
+}
+
+.main__contacts-me-head-input {
+    margin: 0 0 24px;
+}
+
+.main__contacts-me-input {
+    background-color: #e6e5e5;
+    color: #848280;
+    width: 100%;
+    font-size: 15px;
+    margin: 12px 0 0;
+    padding: 16px 35px;
+    border: transparent;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.main__contacts-me-message {
+    background-color: #e6e5e5;
+    color: #848280;
+    width: 100%;
+    font-size: 15px;
+    margin: 12px 0 0;
+    padding: 16px 35px;
+    border: transparent;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    border-image-repeat: stretch;
+    min-height: 150px;
+}
+
+.contacts-me__head-form-buttom [type="submit"] {
+    background-color: var(--background-button);
+    color: #FFFFFF;
+    width: 100%;
+    padding: 16px 35px;
+    margin: 32px 0 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 15px;
+}
+
+.main__contacts-me-container-form input:focus {
+    border: 1px solid #14a9ee;
+    border-radius: 5px;
+}
+
+.main__contacts-me-container-form textarea:focus {
+    border: 1px solid #14a9ee;
+    border-radius: 5px;
+}
+
+.contacts-me__head-form-buttom input:focus {
+    background-color: #8ebcd2;
+}
+
+@media (min-width: 768px) {
+    .main__contacts-me {
+        padding: 75px 0;
+    }
+
+    .main__contacts-me-container {
+        padding: 0 32px;
+        margin-top: 85px;
+        display: flex;
+    }
+
+    .main__contacts-me-container-text {
+        padding: 0 15px 0 0;
+    }
+
+    .main__contacts-me-head-title {
+        font-size: 41px;
+        line-height: 41px;
+        letter-spacing: 1.7px;
+    }
+
+    .main__contacts-me-head-text-block {
+        margin: 15px 0 0;
+    }
+
+    .main__contacts-me-address-head-block {
+        margin: 20px 0 0;
+    }
+
+    .main__contacts-me-container-table {
+        width: 100%;
+    }
+
+    .main__contacts-me-address-block,
+    .main__contacts-me-hours-block {
+        margin: 0 0 16px;
+        display: flex;
+    }
+
+    .main__contacts-me-address,
+    .main__contacts-me-hours {
+        margin: 0;
+        padding: 8px 15px 8px 0;
+    }
+
+    .main__contacts-me-address-text,
+    .main__contacts-me-hours-text {
+        padding: 8px 0 8px 15px;
+    }
+
+    .main__contacts-me-contacts-block {
+        display: flex;
+    }
+
+    .main__contacts-me-contacts {
+        margin: 0;
+        padding: 8px 15px 0 0;
+    }
+
+    .main__contacts-me-contacts-text {
+        padding: 8px 0 0 15px;
+    }
+
+    .main__contacts-me-container-head-form {
+        padding: 0 0 0 15px;
+        margin: 0;
+        display: flex;
+    }
+
+    .main__contacts-me-container-form {
+        padding: 46px 70px;
+        display: flex;
+    }
+}
+
+@media (min-width: 980px) {
+    .main__contacts-me {
+        padding: 100px 0 90px;
+    }
+
+    .main__contacts-me-container {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .main__contacts-me-container-text {
+        padding: 0 15px;
+        width: 528px;
+    }
+
+    .main__contacts-me-head-title {
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: 2px;
+    }
+
+    .main__contacts-me-container-table {
+        /* display: table; */
+    }
+
+    .main__contacts-me-contacts-map {
+        width: 498px;
+        height: 244px;
+    }
+
+    .main__contacts-me-container-head-form {
+        width: 528px;
+        padding: 0 15px;
+     justify-content: center;
+    }
+
+    .main__contacts-me-container-form {
+        padding: 60px 100px;
+    }
+}
+
+.main__contacts-me-container-text {
+
+
+    /* color: #050505dc; */
+}

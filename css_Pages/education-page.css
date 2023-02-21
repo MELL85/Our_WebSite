@@ -1,0 +1,44 @@
+.main__education-head-container {
+    padding: 40px 24px 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__education-container-block {
+    display: flex;
+    flex-direction: column;
+    padding: 31px 27px;
+    margin: 50px 0 0;
+    background-color: #f7f2ea;
+}
+
+.main__education-block-title {
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 32px;
+    text-align: left;
+}
+
+.main__education-block-taxt {
+    margin: 20px 0 0;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    .main__education-head-container {
+        padding: 75px 32px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .main__education-container-block {
+        padding: 30px 30px;
+        margin: 15px;
+    }
+
+    .main__education-block-taxt {
+        margin: 15px 0 0;
+    }
+}

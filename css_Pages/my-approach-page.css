@@ -1,0 +1,99 @@
+.main__my-approach {
+    padding: 85px 0 90px;
+}
+
+.main__my-approach-head-container {
+    padding: 0 24px;
+}
+
+.main__my-approach-head-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 34px;
+    padding: 0 15px;
+    text-align: center;
+    letter-spacing: 1.42px;
+}
+
+.main__my-approach-blocks {
+    margin: 50px 0 0;
+}
+
+.main__my-approach-blocks-img {
+    display: flex;
+    justify-content: center;
+}
+
+.main__my-approach-blocks img {
+    width: 70px;
+    height: 70px;
+}
+
+.main__my-approach-blocks-head-text {
+    margin: 20px 0 0;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.99px;
+    text-align: center;
+}
+
+.main__my-approach-blocks p {
+    margin: 20px 0 0;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+@media (min-width: 768px) {
+    .main__my-approach {
+        padding: 85px 32px 95px;
+    }
+
+    .main__my-approach-head-text {
+        font-size: 41px;
+        line-height: 41px;
+        letter-spacing: 1.7px;
+    }
+
+    .main__my-approach-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 15px 0 0;
+    }    
+
+    .main__my-approach-blocks {
+        padding: 0 15px;
+        margin: 30px 0 0;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 50%;
+    }
+
+    .main__my-approach-blocks-head-text {
+        font-weight: bold;
+    }
+
+    .main__my-approach-blocks-img img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (min-width: 980px) {
+    .main__my-approach-head-container {
+        padding: 0;
+    }
+
+    .main__my-approach-head-text {
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: 2px;
+    }
+
+    .main__my-approach-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 15px 0 0;
+    }
+}

@@ -1,9 +1,3 @@
-header {
-    background-image: linear-gradient(to top, rgba(62, 57, 54, 0.4), rgba(62, 57, 54, .4)), url(../img/header_bg.jpg);
-    background-size: cover;
-    background-position: 25% 50%;
-}
-
 /* burger-menu */
 
 .header__burger-menu-btn-container {
@@ -105,8 +99,10 @@ body.lock {
 }
 
 .header__head-title-container {
+    background-color: var(--background-nav-burger-menu);
+    margin: auto;
     padding: 30px 24px;
-    position: absolute;
+    position: fixed;
     display: flex;
     width: 100%;
     justify-content: space-between;
