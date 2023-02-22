@@ -19,9 +19,3 @@
       );
     });
 })();
-
-// $(document).ready(function(){
-// 	$('.header__burger-menu-btn-container').click(function(){
-// 		$(this).toggleClass('open');
-// 	});
-// });
