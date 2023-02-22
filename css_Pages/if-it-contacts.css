@@ -1,0 +1,82 @@
+.main__if-it-contacts {
+    background-image: linear-gradient(to top, rgba(74, 69, 67, .7), rgba(74, 69, 67, .7)), url(../img/how_it_works_page_laptop.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.main__if-it-contacts-head-container {
+    padding: 85px 24px 90px;
+}
+
+.main__if-it-contacts-head-title {
+    display: flex;
+    justify-content: center;
+}
+
+.main__if-it-contacts-head-title>h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 1.4px;
+    color: #fff;
+    text-align: center;
+}
+
+.main__if-it-contacts-button {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 0;
+}
+
+.footer-if-it__contacts-link-btn {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 0.94rem;
+    line-height: 15px;
+    font-weight: 600;
+    background-color: var(--background-button);
+    border-radius: 7px;
+    border: 2px solid;
+    border-color: #debd9a;
+    cursor: pointer;
+    height: 47px;
+    width: 145px;
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 12px 33px;
+    text-decoration: none;
+    vertical-align: top;
+    color: #322c29;
+}
+
+@media (min-width: 768px) {
+    .main__if-it-contacts-head-container {
+        display: flex;
+        flex-direction: column;
+        padding: 85px 32px 95px;
+        /* text-align: center; */
+        justify-content: center;
+    }
+
+    .main__if-it-contacts-head-title {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main__if-it-contacts-head-title>h2 {
+        font-size: 41px;
+        line-height: 41px;
+        letter-spacing: 1.7px;
+    }
+
+    .footer-if-it__contacts-link-btn {
+        margin: 15px;
+        padding: 17px 40px;
+        width: auto; 
+        height: 56.5px;
+        font-size: 16.5px;
+    }
+}

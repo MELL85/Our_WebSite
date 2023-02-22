@@ -1,0 +1,90 @@
+.main__useful-forms {}
+
+.main__useful-forms-head-container {
+    padding: 85px 24px 90px;
+}
+
+.main__useful-forms-head-title-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__useful-forms-head-title {
+    display: flex;
+    justify-content: center;
+}
+
+.main__useful-forms-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 1.4px;
+}
+
+.main__useful-forms-head-text-container {
+    display: flex;
+    margin: 25px 0 0;
+}
+
+.main__useful-forms-text {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.main__useful-forms-blocks-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__useful-forms-block {
+    display: flex;
+    flex-direction: column;
+    margin: 45px 0 0;
+    /* height: 262px; */
+}
+
+.main__useful-forms-block-img-container>img {
+    height: 210px;
+    object-fit: cover;
+}
+
+.main__useful-forms-block-text-container {
+    margin: 20px 0 0;
+}
+
+.main__useful-forms-block-text {
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 32px;
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    .main__useful-forms-head-container {
+        padding: 85px 32px 95px;
+    }
+
+    .main__useful-forms-title {
+        font-size: 41px;
+        line-height: 41px;
+        letter-spacing: 1.7px;
+    }
+
+    .main__useful-forms-head-text-container {
+        margin: 15px 0 0;
+    }
+
+    .main__useful-forms-blocks-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 45px 0 0;
+    }
+
+    .main__useful-forms-block {
+        margin: 15px;
+    }
+}
